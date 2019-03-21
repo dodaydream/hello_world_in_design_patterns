@@ -2,7 +2,8 @@
 #include "HelloWorldAdapter.h"
 
 int main() {
-    HelloWorldAdapter hwa(std::cout);
+    HelloWorld hw(std::cout);
+    HelloWorldAdapter hwa(std::cout, hw);
     hwa.sayHelloWorld();
     std::cout << std::endl;
     return 0;

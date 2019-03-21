@@ -2,7 +2,7 @@
 #include "HelloWorldAdapter.h"
 
 void HelloWorldAdapter::sayHelloWorld() {
-    hw->sayHello();
+    hw.sayHello();
     os << " ";
-    hw->sayWorld();
+    hw.sayWorld();
 }

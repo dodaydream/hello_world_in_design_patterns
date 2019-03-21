@@ -2,10 +2,9 @@
 
 class HelloWorldAdapter {
 private:
-    HelloWorld *hw;
+    HelloWorld &hw;
     std::ostream& os;
 public:
-    HelloWorldAdapter(std::ostream &os): os(os) { hw = new HelloWorld(os); }
+    HelloWorldAdapter(std::ostream &os, HelloWorld &hw): os(os), hw(hw) { }
     void sayHelloWorld();
-    ~HelloWorldAdapter() { delete hw; }
 };
