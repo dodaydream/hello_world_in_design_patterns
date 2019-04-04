@@ -17,7 +17,7 @@ Currently under development
 | [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern), Wrapper, or Translator | Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator. | ✓ |
 | [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern)       | Decouple an abstraction from its implementation allowing the two to vary independently. | ✓ |
 | [Composite](https://en.wikipedia.org/wiki/Composite_pattern) | Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly. |  |
-| [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern) | Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality. |  |
+| [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern) | Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality. | ✓ |
 | [Facade](https://en.wikipedia.org/wiki/Facade_pattern)       | Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use. |  |
 | [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern) | Use sharing to support large numbers of similar objects efficiently. |  |
 | [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)         | Provide a surrogate or placeholder for another object to control access to it. |  |
