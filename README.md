@@ -1,19 +1,22 @@
 # Hello World in design patterns
 
-This project contains Hello Worlds implemented by design patterns in C++
+This project contains Hello World using design patterns written in C++ language for learning and demonstration.
 
-Currently under development
+Currently not fully implemented
 
-# List of design patterns
+## List of design patterns
 
-| Name                                                         | Description                                                  | State |
+### Creational
+| Name                                                         | Description                                                  | ✓ |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- |
+| [Factory method](https://en.wikipedia.org/wiki/Factory_method_pattern) | Define an interface for creating a *single* object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. | ✓ |
 | [Abstract factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern) | Provide an interface for creating *families* of related or dependent objects without specifying their concrete classes. | ✓ |
 | [Builder](https://en.wikipedia.org/wiki/Builder_pattern)     | Separate the construction of a complex object from its representation, allowing the same construction process to create various representations. | ✓ |
-| [Factory method](https://en.wikipedia.org/wiki/Factory_method_pattern) | Define an interface for creating a *single* object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. | ✓ |
-| [Lazy initialization](https://en.wikipedia.org/wiki/Lazy_initialization) | Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern) pattern. |  |
-| [Prototype](https://en.wikipedia.org/wiki/Prototype_pattern) | Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum. |  |
 | [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern) | Ensure a class has only one instance, and provide a global point of access to it. | ✓ |
+| [Prototype](https://en.wikipedia.org/wiki/Prototype_pattern) | Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum. | ✓ |
+### Structural
+| Name                                                         | Description                                                  | State |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- |
 | [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern), Wrapper, or Translator | Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator. | ✓ |
 | [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern)       | Decouple an abstraction from its implementation allowing the two to vary independently. | ✓ |
 | [Composite](https://en.wikipedia.org/wiki/Composite_pattern) | Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly. |  |
@@ -21,6 +24,12 @@ Currently under development
 | [Facade](https://en.wikipedia.org/wiki/Facade_pattern)       | Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use. |  |
 | [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern) | Use sharing to support large numbers of similar objects efficiently. |  |
 | [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)         | Provide a surrogate or placeholder for another object to control access to it. |  |
+| [Lazy initialization](https://en.wikipedia.org/wiki/Lazy_initialization) | Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern) pattern. |  |
+
+
+### Behavioral
+| Name                                                         | Description                                                  | State |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- |
 | [Chain of responsibility](https://en.wikipedia.org/wiki/Chain_of_responsibility_pattern) | Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it. |  |
 | [Command](https://en.wikipedia.org/wiki/Command_pattern)     | Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations. |  |
 | [Interpreter](https://en.wikipedia.org/wiki/Interpreter_pattern) | Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language. |  |
